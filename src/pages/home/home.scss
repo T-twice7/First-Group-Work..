@@ -1,0 +1,44 @@
+page-home {
+    div.scroll-content{
+        // background-color: peru
+        background-image: url('../../assets/imgs/brickWall.jpg');
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        div.home{
+            // transition: width 2s, height 2s, transform 2s;
+                h1{
+                    font-weight: bolder;
+                    font-size: 40px;
+                    font-family: cursive;
+                    text-align: center;
+                    color: antiquewhite;
+                    text-shadow: 0 0 20px black;
+                }
+            button.h{
+                transition: width 2s, height 2s, transform 2s;
+                border: 5px outset antiquewhite;
+                border-radius: 1em 2em 1em 2em/ 3em 1em 3em 1em;
+                
+                align-items: center;
+                background-color:transparent;
+                font-family: 'Times New Roman', Times, serif;
+                color: black
+            }
+            button.h:hover{
+                transform: rotate(360deg);
+                background-color: black;
+                color: aqua;
+            }
+        }
+
+        // div.home:hover{
+        //     width: 50px;
+        //     height: 50px;
+        //     transform: rotate(360deg);
+        // }
+    }
+ 
+}
